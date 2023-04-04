@@ -1,0 +1,13 @@
+[package]
+name = "typst-egui"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+egui = "0.21"
+eframe = "0.21"
+typst = { git = "https://github.com/typst/typst" }
+typst-library = { git = "https://github.com/typst/typst" }
+comemo = "0.2"
